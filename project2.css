@@ -1,0 +1,271 @@
+body{
+    display: block;
+}
+
+#notificationbar{
+    background-color: #585858;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px 10px;
+   
+    box-sizing: border-box;
+    line-height: 1.8;
+    text-align: center;
+} 
+#notificationbarlink{
+    color: #02a6d6;
+}
+
+#id{
+    background-color: white;
+}
+#header{
+    box-sizing: border-box;
+    height: 100px;;
+}
+#headerlogo{
+   position: absolute;
+    align-self: center;
+}
+
+#menu{
+    display: flex;
+    margin: 45px 20px 20px 25px;
+    margin-left: 18%;
+    position: relative;
+    bottom: 15%;
+    cursor: pointer;
+}
+#menu a{
+    padding: 10px 20px 40px 0px;
+    margin-left: 0;
+    color: black;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 550;
+    border-bottom: blue solid transparent;
+}
+#menu a:hover{
+    border-bottom: blue;
+}
+
+#main{
+    background-color: black;
+    color: white;
+}
+
+#featured{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#image1{
+    
+    flex: 33.33%;
+    padding: 2px;
+    width: 96%;
+}
+
+#image-1{
+    display: flex;
+    box-sizing: border-box;
+}
+#text1image1{
+    position: relative;
+}
+
+#text1{
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+    padding-bottom: 1px;
+}
+#image-2{
+    display: flex;
+    box-sizing: border-box;
+}
+#image2{
+    
+    flex: 25%;
+    padding: 1px;
+    width: 95%;
+}
+#text2image2{
+    position: relative;
+}
+
+#text2{
+    position: absolute;
+    bottom: 1px;
+    left: 460px;
+    padding-bottom: 1px;
+}
+
+#image-3{
+    display: flex;
+    box-sizing: border-box;
+}
+#image3{
+    
+    flex: 25%;
+    padding: 1px;
+    width: 95%;
+}
+#text3image3{
+    position: relative;
+}
+
+#text3{
+    position: absolute;
+    bottom: 1px;
+    left: 900px;
+    padding-bottom: 1px;
+}
+#text4image4{
+    position: relative;
+}
+
+#text4{
+    position: absolute;
+    top:850px;
+    left: 10px;
+    
+   
+}
+#text5image5{
+    position: relative;
+}
+
+#text5{
+    position: absolute;
+    top:850px;
+    left: 350px;
+}
+
+#text6image6{
+    position: relative;
+}
+
+#text6{
+    position: absolute;
+    top:850px;
+    left: 680px;
+}
+#text7image7{
+    position: relative;
+}
+
+#text7{
+    position: absolute;
+    top:850px;
+    left: 1060x;
+}
+#text8image8{
+    position: relative;
+}
+
+#text8 {
+    position: absolute;
+    top:1130px;
+    left: 10px;
+}
+#text9image9{
+    position: relative;
+}
+
+#text9{
+    position: absolute;
+    top:1130px;
+    left: 350px;
+}
+#text10image10{
+    position: relative;
+}
+
+#text10{
+    position: absolute;
+    top:1130px;
+    left: 680px;
+}
+#text11image11{
+    position: relative;
+}
+
+#text11{
+    position: absolute;
+    top:1130px;
+    left: 1060x;
+}
+#size{
+    font-size: 18px;
+}
+#last{
+    
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+#corus{
+    text-align: center;
+}
+#footer{
+    background-color:#202020;
+    
+   
+}
+.li{
+    display: inline-block;
+    padding-left: 25px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    
+
+}
+#ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    list-style-type: none;
+    text-decoration: none;
+    text-decoration: white;
+}
+
+#first{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+}
+#black{
+    background-color: black;
+}  
+
+.grey{
+    text-decoration: gray;
+}
+#blue{
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+
+#imglast{
+  width: 100px;
+  
+}
+#img{
+    display: flex;
+    justify-content: center;
+}
+#menu a {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    
+
+}
+a:hover{
+    color: blue;}
